@@ -1,0 +1,315 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+#nav{
+    display: flex;
+    background-color: #f8f7f4;
+}
+.logo{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.select{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 32px;
+    margin-left: 45px;
+    /* gap: 30px; */
+    word-spacing: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.option{
+    
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* margin-top: 32px; */
+    /* margin-left: 30px; */
+    /* gap: 30px; */
+    /* word-spacing: 25px; */
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    background-color: #f8f7f4;
+}
+option{
+
+    font-weight: normal;
+    font-size: 20px;
+    word-spacing: 20px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.Input{
+    margin-top: 18px;
+    margin-left: 250px;
+}
+input{
+    height: 50px;
+    width: 120%;
+    border-radius: 25px;
+    text-align:left;
+    border: hidden;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(247, 234, 234, 0.979);
+}
+input > ::placeholder{  
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 5px;
+}
+
+.log1{
+    margin-left: 60px;
+    margin-top: 34px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: none;
+    font-size: 17px;
+    background-color: #f8f7f4;
+    font-style: oblique;
+
+}
+.sing1{
+    height: 50px;
+    width: 90px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 22px;
+    margin-top: 19px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    background-color:#0d0c22;
+    color: #f8f7f4;
+
+}
+
+.sing1:hover{
+    background-color: #2e2e3ddc;
+}
+
+/* main */
+.heading{
+    margin-top: 50px;
+text-align: center;
+font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: bold;
+font-size: 2rem;
+color:#0d0c22;
+}
+.para{
+text-align: center;
+font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #99968c;
+}
+#pics{
+    display: flex;
+    /* margin-left: 0; */
+    justify-content: space-evenly;
+    margin-top: 45px;
+    margin-left: 23px;
+}
+
+.pix1{
+    border-radius: 20px;
+    background-color: #3d34da;
+    height:250px;
+    width: 300px;
+}
+.return{
+    margin-top: 5px;
+    display: flex;
+    color:  #99968c;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+#lv{
+    display: flex;
+    flex-direction: row;
+ margin-left: 110px;
+ padding-left: 10px;
+ gap: 10px;
+}
+
+.pix2{
+    border-radius: 20px;
+    /* background-color: #3d34da; */
+    background-color: #99968c;  
+    height:250px;
+    width: 300px;
+
+}
+    .pix3{
+        border-radius: 20px;
+        background-color: #f8f7f4;
+        height:250px;
+        width: 300px;    
+    }
+        .pix4   {
+            border-radius: 20px;
+            background-color: #f8f7f4;
+            height:250px;
+            width: 300px;
+}
+img{
+    height:230px;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* .heading */
+
+#btn{
+    margin-left: 530px;
+    margin-top: 140px;
+    
+}
+.btn1{
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-radius: 45px;
+    background-color: #0d0c22;
+    color: #f8f7f4;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+/* footer */
+
+#bth{
+    margin-left: 1250px;
+    height: 60px;
+    width: 60px;
+    border: none;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    border: none;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #99968c; 
+    position: sticky;
+    
+}
+.btn:hover{
+    background-color: #53524f;
+}
+/* marquee{
+    display: flex;
+    flex-direction: row; */
+    /* margin-top: 30px; */
+    /* height: 300px;
+    width: 300px; */
+/* } */
+.mainmar{
+
+    display: flex;
+    flex-direction: row;
+}
+img{
+    margin-left: 25px;
+ 
+}
+
+marquee> img{
+    height: 250px;
+    width: 30%;
+}
+
+
+.footer-v2-marquee-item__stack {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: var(--item-media-width);
+    height: var(--item-media-height);
+    text-decoration: none;
+    color: black;
+}
+
+.footer-v2-marquee__grid {
+    display: grid;
+    grid-auto-columns: -webkit-min-content;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-transform: translateX(var(--grid-x-offset, 0));
+    -ms-transform: translateX(var(--grid-x-offset, 0));
+    transform: translateX(var(--grid-x-offset, 0));
+    -webkit-transition: -webkit-transform 0.6s ease-out;
+    transition: -webkit-transform 0.6s ease-out;
+    transition: transform 0.6s ease-out;
+    transition: transform 0.6s ease-out, -webkit-transform 0.6s ease-out;
+    gap: var(--grid-gap);
+    text-decoration: none;
+    color: black;
+}
+
+#foo2{
+display: flex;
+margin-left: 40px;
+margin-top: 100px;
+}
+.h2{
+    
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0d0c22;
+}
+.foo3{
+    padding-left: 100px;
+    word-spacing: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    color: #211f3a;
+}
+#icon{
+    display: flex;
+    flex-direction: row-reverse;
+   margin-top: 20px;
+   margin-left: 180px;  
+    padding-left: 20px;
+}
+.i{
+    margin-top: 19px;
+    margin-left: 110px; 
+    padding-left: 20px;
+    word-spacing: 18px;
+}
+i{
+    font-size: 21px;
+}
+.foo4{
+    display: flex;
+    gap: 25px;
+    margin-left:40px;
+    margin-top: 45px;
+    font-size: 15px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(124, 124, 131);
+    margin-bottom: 40px;
+}
+.foo5{
+   
+    display: flex;
+    gap: 25px;
+    margin-left:460px;
+    font-size: 15px;
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(155, 155, 160);
+    margin-bottom: 40px; 
+}
+
+
